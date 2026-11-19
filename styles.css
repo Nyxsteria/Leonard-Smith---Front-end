@@ -193,7 +193,7 @@
     border-radius: 20px;
     flex-shrink: 0;
     object-fit: cover;
-    transform: translateY(-15px);
+    transform: translateY(-45px);
     gap: 5px;
 }
 
