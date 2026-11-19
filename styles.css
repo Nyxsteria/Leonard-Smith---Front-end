@@ -221,7 +221,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20%;
+    gap: 18%;
+    white-space: nowrap;
     
     
     background-color: #001b3d;
@@ -303,6 +304,7 @@ footer{
 .yellow-text{
     color: #d89b29;
 }
+
 
 /* =========================
    Responsive
