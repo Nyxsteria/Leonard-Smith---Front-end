@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+    <defs>
+        <mask id="arrow-cutout">
+            <rect width="128" height="128" fill="white"/>
+
+            <!-- Transparent arrow shaft -->
+            <rect x="58" y="35" width="12" height="40" rx="2" fill="black"/>
+
+            <!-- Transparent arrow head -->
+            <path d="M40 62 L64 86 L88 62 L80 54 L64 70 L48 54 Z"
+                  fill="black"/>
+        </mask>
+    </defs>
+
+    <circle
+        cx="64"
+        cy="64"
+        r="58"
+        fill="white"
+
+        mask="url(#arrow-cutout)"/>
+</svg>
