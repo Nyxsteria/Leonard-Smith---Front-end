@@ -10,11 +10,15 @@
 /* =========================
    Navigation
 ========================= */
-
 .navigation{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
     display: flex;
     align-items: center;
     padding: 10px 20px;
+
     background-color: #001b3d;
     height: 60px;
 }
